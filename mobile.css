@@ -1,0 +1,233 @@
+@media only screen and (max-width: 768px) {
+
+    .title {
+        font-size: 2.5rem;
+    }
+    
+    .game {
+        width: 100%;
+        height: 100vh;
+    }
+    .info {
+        align-items: center;
+        font-size: 0.8rem;
+    }
+    
+    .info .score {
+        position: absolute;
+        left: 5%;
+        margin-top: 10px;
+        margin-bottom: 5px;
+    }
+    
+    .pointsPer {
+        position: fixed;
+        right: 5%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+    }
+    .pointsPer .counter {
+        padding-top: 60px;
+    }
+    
+    .image {
+        padding-top: 10%;
+    }
+    .game img {
+        width: 300px;
+        height: 400px;
+    }
+    
+    #clickBtn {
+        width: 200px;
+        height: 250px;
+    }
+
+    .gameText {
+        font-size: 3rem;
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    .menu {
+        top: 20%;
+        left: 2%;
+        width: 120px;
+        padding: 5px;
+        font-size: 0.8rem;
+    }
+    
+    .effects {
+        margin: 20px;
+    }
+
+    .shopTitle {
+        font-size: 28px;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .market {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    #shop {
+        padding-left: 5%;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .col-lg-4 {
+        width: 40%;
+        max-width: 130px;
+        max-height: 210px;
+        margin-left: 2px;
+        text-align: center;
+        border: 1px solid black;
+    }
+
+    .col-lg-4 img {
+        max-width: 30%;
+        height: auto;
+        margin-bottom: 10px;
+        margin-top: 2px;
+    }
+    #effectCounter {
+        max-width: 120px;
+        padding: 15px;
+        display: block;
+        left: 80%;
+    }
+
+    .effect {
+        margin-top: 10px;
+    }
+
+    button {
+        background-color: #42a845;
+        border: none;
+        color: white;
+        padding: 5px 10px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    .effects button {
+        padding: 1px 6px;
+    }
+}
+
+/* Pienemmälle näytölle */
+
+@media only screen and (max-width: 480px) {
+    .title {
+        font-size: 1.5rem;
+    }
+
+    .info {
+        font-size: 0.5rem;
+    }
+
+    .info .score {
+        margin-top: 5px;
+        margin-bottom: 3px;
+    }
+
+    .pointsPer {
+        position: absolute;
+        right: 2%;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .image {
+        padding-top: 8%;
+    }
+
+    .game img {
+        width: 250px;
+        height: 300px;
+    }
+
+    #clickBtn {
+        width: 150px;
+        height: 200px;
+    }
+
+    .gameText {
+        font-size: 2.5rem;
+        top: 25%;
+    }
+
+    .menu {
+        top: 15%;
+        left: 2%;
+        width: 100px;
+        padding: 3px;
+        font-size: 0.6rem;
+    }
+
+    .effects {
+        margin: 15px;
+    }
+
+    .shopTitle {
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+
+    #shop {
+        padding-left: 3%;
+    }
+
+    .col-lg-4 {
+        width: 35%;
+        max-width: 100px;
+        max-height: 150px;
+        margin-left: 1px;
+        border: 0px solid black;
+    }
+
+    .col-lg-4 img {
+        max-width: 25%;
+        height: auto;
+        margin-bottom: 7px;
+        margin-top: 1px;
+    }
+
+    #effectCounter {
+        max-width: 90px;
+        padding: 10px;
+        display: block;
+        left: 70%;
+        font-size: 0.8rem;
+    }
+
+    .effect {
+        margin-top: 7px;
+    }
+
+    button {
+        padding: 3px 8px;
+        font-size: 0.9rem;
+        margin-bottom: 7px;
+        border-radius: 5px;
+    }
+    
+    .effects button {
+        padding: 1px 4px;
+    }
+}
